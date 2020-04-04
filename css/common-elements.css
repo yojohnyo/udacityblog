@@ -12,6 +12,10 @@ h1 {
     font-size: 40px;
 }
 
+h3 {
+    margin-block-end: .5em;
+}
+
 .post-meta {
     font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: italic;
