@@ -1,0 +1,33 @@
+.main-nav {
+    grid-area: navigation;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 4px blue;
+}
+
+.navgation-link {
+    margin: 4px 20px 4px 20px;
+    font-size: 20px;
+}
+
+.navgation-link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: firebrick;
+}
+
+.right-nav-link {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    .right-nav-link {
+        display: block;
+    }
+
+    .main-nav {
+        flex-direction: row;
+    }
+
+}
