@@ -2,8 +2,6 @@
     max-width: 1200px;
     margin: 0px 80px 0px 80px;
     display: grid;
-    /*grid-template-columns: 600px auto 50px;*/
-    /*grid-template-rows: 200px 60px auto;*/
     grid-template-areas: "banner banner banner" "title title title" "topics1 . topics2"
 }
 
@@ -13,6 +11,10 @@
 
 .title {
     grid-area: title;
+    background-image: url("../img/AddLinkToImage.png");
+    height: 75%;
+    width: 100%;
+
 }
 
 .topics {
@@ -28,7 +30,32 @@
     width: 200px;
     height: 300px;
     margin: 40px;
-    border: 3px solid firebrick;
+    border: 2px solid darkcyan;
+}
+
+.topic h2 {
+    margin-left: .2em;
+}
+
+.topics a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.topic-tile1 {
+    background-image: url("../img/family_blue_no_text.png");
+}
+
+.topic-tile2 {
+    background-image: url("../img/travel.png");
+}
+
+.topic-tile3 {
+    background-image: url("../img/work.png");
+}
+
+.topic-tile4 {
+    background-image: url("../img/at.png");
 }
 
 .recent-posts {
@@ -45,12 +72,13 @@
         grid-template-areas: "banner banner banner" "title title title" "topics1 .
     }
 
-    .banner-image {
-        display: block;
-        grid-area: banner;
-        width: 1200px;
-        height: 200px;
-    }
+    /*.banner-image {*/
+    /*    display: block;*/
+    /*    grid-area: banner;*/
+    /*    width: 1200px;*/
+    /*    height: 200px;*/
+    /*    background-image: url("../img/AddLinkToImage.png");*/
+    /*}*/
 }
 /*.topic-tile1 {*/
 /*    grid-area: topics1;*/

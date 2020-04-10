@@ -12,8 +12,17 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    margin-top: .5em;
+}
+
 h3 {
     margin-block-end: .5em;
+}
+
+h3 a {
+    text-decoration: none;
+    color: firebrick;
 }
 
 .post-meta {
