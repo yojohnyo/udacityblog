@@ -9,12 +9,16 @@
     display: none;
 }
 
+.logo {
+    grid-area: banner;
+    background-image: url("../img/banner.png");
+    width: 100%;
+    height: auto;
+
+}
+
 .title {
     grid-area: title;
-    background-image: url("../img/banner.png");
-    /*height: auto;*/
-    width: 100%;
-
 }
 
 .about {
@@ -33,7 +37,7 @@
 
     width: 200px;
     height: 300px;
-    margin: 40px;
+    margin: 35px;
     border: 2px solid darkcyan;
 }
 
@@ -41,7 +45,7 @@
     margin-left: .2em;
 }
 
-.title {
+.logo {
     padding: .5em;
     color: gold;
 }
@@ -84,6 +88,7 @@
     }
     .recent-posts {
         grid-area: topics2;
+        min-width: 200px;
     }
     .main-nav {
         flex-direction: row;

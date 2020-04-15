@@ -1,9 +1,4 @@
-.blog-summary-container {
-    max-width: 1200px;
-    margin: 0px 80px 0px 80px;
-    display: grid;
-    grid-template-areas: "title title title" "navigation navigation navigation" "topics1 . topics2"
-}
+
 
 .description {
     margin-bottom: 2em;
@@ -23,4 +18,32 @@
 
 .blog-summary:last-child {
     border: none;
+}
+
+
+@media only screen and (min-width: 835px) {
+    .blog-summary-container {
+        max-width: 1200px;
+        margin: 0px 80px 0px 80px;
+        display: grid;
+        grid-template-areas: "banner banner banner" "navigation navigation navigation" "title title title" "topics1 . topics2"
+    }
+
+
+    .right-nav-link {
+        display: block;
+    }
+    .recent-posts {
+        grid-area: topics2;
+    }
+    .main-nav {
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+
 }
