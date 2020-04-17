@@ -26,7 +26,7 @@
         max-width: 1200px;
         margin: 0px 80px 0px 80px;
         display: grid;
-        grid-template-areas: "banner banner banner" "navigation navigation navigation" "title title title" "topics1 . topics2"
+        grid-template-areas: "banner banner banner" "navigation navigation navigation" "title title title" "topics1 . topics2" "ftr ftr ftr"
     }
 
 
