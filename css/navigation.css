@@ -22,7 +22,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .right-nav-link {
         display: block;
     }
