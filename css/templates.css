@@ -18,7 +18,13 @@
     background-image: url("../img/banner.png");
     width: 100%;
     height: auto;
+}
 
+.avatar {
+    border-radius: 40%;
+    width: 70px;
+    height: auto;
+    border: 3px solid darkblue;
 }
 
 .foot {
