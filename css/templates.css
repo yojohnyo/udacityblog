@@ -78,12 +78,7 @@
     background-image: url("../img/at.png");
 }
 
-.recent-posts {
-    display: none;
-}
-
-
-@media only screen and (min-width: 835px) {
+@media only screen and (min-width: 768px) {
     .home-page {
         margin: 0px 80px 0px 80px;
         display: grid;
@@ -111,6 +106,11 @@
         grid-template-columns: 80% 5% 15%;
         grid-template-areas: "banner banner banner" "title title title" "aboutMe aboutMe aboutMe" "topics1 . topics2" "ftr ftr ftr"
     }
-
-
 }
+
+@media only screen and (max-width: 768px) {
+    .recent-posts {
+        display: none;
+    }
+}
+
