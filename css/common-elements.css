@@ -119,3 +119,13 @@ a {
     color: maroon;
     text-size: 30px;
 }
+
+.read-more {
+    color: darkblue;
+    font-size: 14px;
+    margin-top: 12px;
+    background-color: inherit;
+    border-radius: 30px;
+    cursor: pointer;
+    float: right;
+}

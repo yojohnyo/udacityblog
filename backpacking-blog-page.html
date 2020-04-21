@@ -7,6 +7,8 @@
         <title>Family Blog Page</title>
     </head>
     <body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+    <script src="js/twitter.js"></script>
         <div class="blog-summary-container">
             <header class="logo">
                 My Wanderings
@@ -58,6 +60,11 @@
                     <img src="img/avatar.jpg" class="avatar" alt="Author avatar">
                     <div class="post-meta">April 13, 2020</div>
                     This weekend we found out that we got a permit for the Wonderland Trail!!!!!
+                    <form action="blog-posts/wonderland-permit.html">
+                        <button class="read-more" type="submit">
+                            More Information
+                        </button>
+                    </form>
                 </article>
                 <article class="blog-summary">
                     <h3><a href="blog-posts/waiting-wonderland.html">Waiting for a Wonderland Trail permit</a></h3>
@@ -65,6 +72,11 @@
                     <div class="post-meta">April 7, 2020</div>
                     My older son and I decided that we were going to try to hike the entire 93 miles of the <a href="https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm">
                     Wonderland Trail</a> this summer.  The number of permits is limited and the competition to get them is tough.
+                    <form action="blog-posts/waiting-wonderland.html">
+                        <button class="read-more" type="submit">
+                            More Information
+                        </button>
+                    </form>
                 </article>
             </div>
             <aside class="recent-posts right-nav-link">
@@ -79,7 +91,24 @@
                 April 7
             </aside>
             <footer class="foot">
-                This blog has been created as part of the <strong>Udacity Front End Developer course</strong>.
+                <div id="social">
+                    <div class="fb-share-button" data-href="https://mysite.com" data-layout="button_count" data-size="small">
+                        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmysite.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                            Share on Facebook
+                        </a>
+                    </div>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://mysite.com&title=Share on Linkedin&summary=mysite.com&source=MyBlogSite" onclick="window.open(this.href, 'mywin',
+    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><img src="https://chillyfacts.com/wp-content/uploads/2017/06/LinkedIN.gif" alt="" width="54" height="20" />
+                    </a>
+                    <a class="twitter-share-button"
+                       href="https://twitter.com/intent/tweet?text=Look%20at%20this"
+                       data-size="small">
+                        Tweet
+                    </a>
+                </div>
+                <p>
+                    This blog has been created as part of the <strong>Udacity Front End Developer course</strong>.
+                </p>
             </footer>
         </div>
     </body>
