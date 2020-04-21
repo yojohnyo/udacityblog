@@ -60,6 +60,16 @@ a {
     font-size: 18px;
 }
 
+.bio {
+    font-style: italic;
+    font-size: 18px;
+    color: steelblue;
+}
+
+.bio-section {
+    margin-top: 5px;
+}
+
 .taxonomy {
     font-style: normal;
     font-size: 17px;
