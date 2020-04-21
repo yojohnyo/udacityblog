@@ -8,8 +8,9 @@
 
 .navgation-link {
     font-family: Lato, Arial, Helvetica, sans-serif;
-    margin: 4px 60px 4px 20px;
+    margin: 4px 20px 4px 20px;
     font-size: 20px;
+    display: inline;
 }
 
 .navgation-link a {
@@ -20,6 +21,17 @@
 
 .right-nav-link {
     display: none;
+}
+
+#nav__list {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+@media only screen and (min-width:360px) and (max-width:600px) {
+    .navgation-link {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) {
